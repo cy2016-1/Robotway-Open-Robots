@@ -13,8 +13,8 @@
  ------------------------------------------------------------------------------------*/
 #include<Servo.h>            //调用舵机库
 #define Servo_Pin 3          //定义舵机引脚号
-#define Claw_Open_Angle 120  //设置舵机夹爪张开角度
-#define Claw_Close_Angle 60  //设置舵机夹爪闭合角度
+#define Claw_Open_Angle 135  //设置舵机夹爪张开角度
+#define Claw_Close_Angle 45  //设置舵机夹爪闭合角度
 Servo myservo;               //声明舵机对象
 
 //程序初始化部分：使能舵机引脚

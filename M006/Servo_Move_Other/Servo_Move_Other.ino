@@ -21,9 +21,9 @@ void setup() {
 
 
 void loop() {
-  ServoControl(60);  //舵机夹爪张开
+  ServoControl(135);  //舵机夹爪张开
   delay(2000);       //等待2秒
-  ServoControl(120); //舵机夹爪闭合
+  ServoControl(45); //舵机夹爪闭合
   delay(2000);       //等待2秒
 }
 
