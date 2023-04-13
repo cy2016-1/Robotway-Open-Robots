@@ -1,0 +1,11 @@
+[Project]
+Platform=HBR740
+ComBaud=1
+GainNum=1
+VolumeNum=2
+ComNum=16
+[Model]
+GroupNum=1
+[Group001]
+GroupName=»úÆ÷¹·
+ModelNum=0

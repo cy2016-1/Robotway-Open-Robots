@@ -1,0 +1,15 @@
+[Project]
+Platform=HBR740
+ComNum=12
+ComBaud=1
+GainNum=1
+VolumeNum=2
+[Model]
+GroupNum=1
+[Group001]
+GroupName=风扇
+ModelNum=2
+Model000=风扇打开
+Pinying000=01/01
+Model001=风扇关闭
+Pinying001=01/01

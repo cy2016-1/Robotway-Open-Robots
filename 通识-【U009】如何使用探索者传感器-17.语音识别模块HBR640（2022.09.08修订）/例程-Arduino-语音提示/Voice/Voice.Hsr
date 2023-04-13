@@ -1,0 +1,14 @@
+[Project]
+Platform=HBR740
+ComBaud=1
+GainNum=1
+VolumeNum=2
+ComNum=0
+ComSpeed=2
+[Model]
+GroupNum=1
+[Group001]
+GroupName=Î´ÃüÃû
+ModelNum=1
+Model000=Ç°½ø
+Pinying000=01/01

@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find agv_bringup)/launch/agv_robot.launch"/>
+    <include file="$(find parallel_arm_controller)/launch/arm.launch"/>
+    <include file="$(find object_detection)/launch/detection.launch"/>
+</launch>

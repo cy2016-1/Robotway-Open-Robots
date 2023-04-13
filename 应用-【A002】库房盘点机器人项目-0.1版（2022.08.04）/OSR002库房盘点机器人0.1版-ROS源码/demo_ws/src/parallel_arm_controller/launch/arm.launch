@@ -1,0 +1,39 @@
+<launch>
+  <node name="can" pkg="protobot_can_ros" type="can_network.py" output="screen" />
+  <node name="motor_z" pkg="protobot_motor_ros" type="protobot_motor" output="screen" >
+    <param name="id" value="21" />
+    <param name="reduction" value="-12.45" />
+
+    <!-- set limits -->
+    <!-- <param name="vel_lim" value="3.14" />
+    <param name="cur_lim" value="10" /> -->
+
+    <!-- set control mode -->
+    <!-- options: position, position_filter, position_traj, velocity, velocity_ramp, torque -->
+    <param name="control_mode" value="position_filter" />
+
+    <!-- control mode configuration -->
+    <param name="filter_bandwidth" value="1" />
+    <!-- <param name="traj_max_vel" value="3" /> -->
+    <!-- <param name="traj_acc" value="10" /> -->
+    <!-- <param name="traj_dec" value="10" /> -->
+    <!-- <param name="ramp_acc" value="2" /> -->
+  </node>
+  
+  <node name="motor_r" pkg="protobot_motor_ros" type="protobot_motor" output="screen" >
+    <param name="id" value="16" />
+    <param name="reduction" value="-44" />
+    <param name="control_mode" value="position_filter" />
+    <param name="filter_bandwidth" value="5" />
+  </node>
+  
+  <node name="motor_l" pkg="protobot_motor_ros" type="protobot_motor" output="screen" >
+    <param name="id" value="17" />
+    <param name="reduction" value="-44" />
+    <param name="control_mode" value="position_filter" />
+    <param name="filter_bandwidth" value="5" />
+  </node>
+  
+  <node name="arm_controller" pkg="parallel_arm_controller" type="controller.py" output="screen" />
+
+</launch>

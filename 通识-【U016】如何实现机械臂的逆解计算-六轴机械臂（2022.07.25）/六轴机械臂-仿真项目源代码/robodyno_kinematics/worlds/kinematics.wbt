@@ -1,0 +1,135 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.7016714158622099 -0.7024328329247003 -0.11935384112504104 5.671134769475582
+  position 0.8731190289118134 1.0709348849725744 1.5107609166221554
+}
+TexturedBackground {
+  texture "factory"
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorAppearance Parquetry {
+    type "chequered"
+    colorOverride 0 0 0
+  }
+  wallHeight 0.01
+}
+Robot {
+  children [
+    BAR_LINK {
+      translation 0 1.8366e-07 -0.05
+      rotation 1 0 0 1.5708
+    }
+    BAR_LINK {
+      translation 0 -1.8366e-07 0.05
+      rotation 1 0 0 1.5708
+      name "Link(1)"
+    }
+    BAR_LINK {
+      translation -1.03647e-08 0.01 2.42763e-08
+      rotation -0.5773509358554485 -0.5773509358554485 0.5773489358556708 -2.094395307179586
+      name "Link(2)"
+    }
+    BRACKET {
+      translation 0 0.04 0.03
+      rotation 0 0 1 1.5708
+    }
+    BRACKET {
+      translation 0 0.04 -0.03
+      rotation 0.7071067811862364 -0.7071067811862364 9.381857096790023e-07 3.14159
+      name "Bracket(1)"
+    }
+    ROBODYNO_PRO {
+      translation 0 0.09 0
+      rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.09439
+      motor_id "M1"
+      slot [
+        BRACKET {
+          rotation -0.7071067811862364 -0.7071067811862364 9.381857096790023e-07 3.14159
+        }
+        ROBODYNO_PRO {
+          translation 0 -0.015 0.03
+          rotation 0.5773509358560258 -0.577349935856137 0.577349935856137 2.09439
+          motor_id "M2"
+          slot [
+            BAR_LINK {
+              translation 0.05 0 0
+              rotation 1 0 0 3.14159
+            }
+            BRACKET {
+              translation 0.115 0 -0.005
+              rotation 0 1 0 -1.5707953071795862
+            }
+            ROBODYNO_PRO {
+              translation 0.145 0 -0.0199996
+              rotation 0 1 0 3.14159
+              motor_id "M3"
+              slot [
+                BAR_LINK {
+                  translation -0.05 0 0
+                  rotation 1 0 0 3.14159
+                }
+                BRACKET {
+                  translation -0.115 0 -0.005
+                  rotation 0 1 0 1.5708
+                }
+                ROBODYNO_PRO {
+                  translation -0.145 -5.30718e-08 -0.02
+                  rotation 1 0 0 3.14159
+                  motor_id "M4"
+                  slot [
+                    BRACKET {
+                      rotation 1 0 0 3.14159
+                    }
+                    ROBODYNO_PRO {
+                      translation -0.015 0 0.03
+                      rotation 0 1 0 -1.5707953071795862
+                      motor_id "M5"
+                      slot [
+                        BRACKET {
+                          rotation 1 0 0 3.14159
+                        }
+                        ROBODYNO_PRO {
+                          translation 0.015 0 0.03
+                          rotation 0 1 0 1.5708
+                          motor_id "M6"
+                          slot [
+                            Transform {
+                              translation 0 0 0.025
+                              children [
+                                Transform {
+                                  rotation 0.6785999784663265 -0.6785969784664218 0.28108399108050236 1.096045307179586
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  boundingObject Transform {
+    translation 0 0.01 0
+    children [
+      Box {
+        size 0.15 0.02 0.15
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 10
+  }
+  controller "arm_controller"
+}
