@@ -1,0 +1,14 @@
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\Debug\ShapeDetect.exe.config
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\Debug\ShapeDetect.exe
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\Debug\ShapeDetect.pdb
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\MainWindow.g.cs
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\App.g.cs
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\ShapeDetect_MarkupCompile.cache
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\ShapeDetect_MarkupCompile.lref
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\MainWindow.baml
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\ShapeDetect.g.resources
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\ShapeDetect.Properties.Resources.resources
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\ShapeDetect.csproj.GenerateResource.Cache
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\ShapeDetect.exe
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\ShapeDetect.pdb
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\Debug\ShapeDetect.csprojResolveAssemblyReference.cache

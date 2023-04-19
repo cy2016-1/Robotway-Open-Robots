@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--xml-->
+<launch> 
+  <node pkg="color_tracking" type="ros_arduino_translation_test.py" name="ros_arduino_translation_test" output="screen"/>
+  <!--node pkg="color_sorting" type="serial_port.py" name="serial_port"/-->
+  <node pkg="rosserial_python" type="serial_node.py" name="rosserial">
+     <param name="port" value="/dev/ttyUSB0"/>
+  </node>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find color_tracking)/rviz/color_tracking_rviz.rviz"/>
+</launch>

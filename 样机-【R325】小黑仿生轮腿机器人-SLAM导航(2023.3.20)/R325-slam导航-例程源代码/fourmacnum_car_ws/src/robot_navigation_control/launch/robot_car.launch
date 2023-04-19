@@ -1,0 +1,31 @@
+<!--xml-->
+<launch>
+  <arg name="ns" default="/"/>
+  <arg name="frame_prefix" value=""/>
+  <arg name="rviz" default="false"/>   
+  <group ns="$(arg ns)">
+    <node pkg="rosserial_python" type="serial_node.py" name="rosserial">
+  	<param name="port" value="/dev/ttyUSB0"/>
+    </node>
+
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop" output="screen">
+		<param name="speed" value="0.05" type="double"/>
+		<param name="turn" value="0.15" type="double"/>
+    </node>
+
+
+    <node name="delta_2b_lidar" pkg="delta_2b_lidar"  type="delta_2b_lidar_node" output="log">
+      <param name="serial_port" type="string" value="/dev/ttyUSB1"/>
+      <!--param name="frame_id" type="string" value="laser"/-->
+      <!--param name="frame_id" type="string" value="$(arg frame_prefix)laser"/-->
+      <param name="frame_id" type="string" value="laser"/>
+    </node>
+    <include file="$(find robot_navigation_control)/launch/agv_laser_filters.launch" />	
+    <node pkg="tf" type="static_transform_publisher" name="lidar_broadcaster" args="0.18 0 0 0 0 -0.7071 0.7071 base_link laser 200" />
+    <node pkg="robot_navigation_control" type="message_translate.py" name="message_translate"/>
+
+    <!--include file="$(find robot_navigation_control)/launch/lidar.launch"/-->
+  
+    <!-- node name="rviz" pkg="rviz" type="rviz"/ -->
+  </group>
+</launch>

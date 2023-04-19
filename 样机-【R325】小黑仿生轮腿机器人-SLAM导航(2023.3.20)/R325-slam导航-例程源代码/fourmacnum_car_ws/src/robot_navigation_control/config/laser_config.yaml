@@ -1,0 +1,11 @@
+scan_filter_chain:
+- name: box
+  type: laser_filters/LaserScanBoxFilter
+  params:
+    box_frame: laser
+    min_x: -0.2  #2020.8.4 source value -0.2    2020-10-29 source value = -0.2
+    max_x: 0.2   #2020.8.4 source value 0.2     2020-10-29 source value = 0.2
+    min_y: -0.18     #2020.8.4 source value -0.13   2020-10-29 source value = 0
+    max_y: 0.22  #2020.8.4 source value 0.27    2020-10-29 source value = 0.20
+    min_z: -0.5  #2020.8.4 source value -1.0    2020-10-29 source value = -0.5
+    max_z: 0.5   #2020.8.4 source value 1.0     2020-10-29 source value = 0.5

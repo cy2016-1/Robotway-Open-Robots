@@ -1,0 +1,26 @@
+<!--xml-->
+<launch>
+  <!--rosparam file="$(find robot_navigation)/config/my_params.yaml" command="load" /-->
+  
+  <!-- param name="robot_description" textfile="$(find robot_navigation_control)/urdf/robot.urdf" / -->
+  <!-- node pkg="robot_state_publisher" type="state_publisher" name="robot_state_publisher" / -->
+  
+  <!--node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"/-->
+  <!-- node pkg="robot_navigation_control" type="robot_navigation_control_node" name="joint_state_pub"/ -->
+  
+  <node pkg="rosserial_python" type="serial_node.py" name="rosserial">
+  	<param name="port" value="/dev/ttyUSB0"/>
+
+  </node>
+	
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop" output="screen">
+		<param name="speed" value="0.08" type="double"/>
+		<param name="turn" value="0.15" type="double"/>
+  </node>
+  <node pkg="robot_navigation_control" type="message_translate.py" name="message_translate"/>
+
+  <include file="$(find robot_navigation_control)/launch/lidar.launch"/>
+  
+  <!-- node name="rviz" pkg="rviz" type="rviz"/ -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find robot_navigation_control)/rviz/robot_odom.rviz"/>
+</launch>

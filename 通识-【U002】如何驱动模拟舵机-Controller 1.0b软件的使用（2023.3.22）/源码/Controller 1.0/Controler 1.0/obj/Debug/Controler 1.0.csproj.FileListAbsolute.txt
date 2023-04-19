@@ -1,0 +1,51 @@
+F:\workspace\C#\Controler 1.0\Controler 1.0\bin\Debug\Controler 1.0.exe.config
+F:\workspace\C#\Controler 1.0\Controler 1.0\bin\Debug\Controler 1.0.exe
+F:\workspace\C#\Controler 1.0\Controler 1.0\bin\Debug\Controler 1.0.pdb
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\MainWindow.g.cs
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\App.g.cs
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0_MarkupCompile.cache
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0_MarkupCompile.lref
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\MainWindow.baml
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0.g.resources
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Controler_1._0.Properties.Resources.resources
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0.csproj.GenerateResource.Cache
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0.exe
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0.pdb
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\ExpanderAnimationStyle.baml
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\App.baml
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\UserControl\ControlPanel.g.cs
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\UserControl\ControlPanel.baml
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\UserControl\CheckLable.g.cs
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\UserControl\CheckLable.baml
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Windows\About.g.cs
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Windows\About.baml
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\UserControl\CommandText.g.cs
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\UserControl\CommandText.baml
+F:\workspace\C#\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0.csprojResolveAssemblyReference.cache
+H:\301\资料\Controler 1.0\Controler 1.0\bin\Debug\Controler 1.0.exe.config
+H:\301\资料\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0.exe
+H:\301\资料\Controler 1.0\Controler 1.0\obj\Debug\Controler 1.0.pdb
+D:\Workspace\C#\Controller 1.0\Controler 1.0\bin\Debug\Controler 1.0.exe.config
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Controler 1.0.exe
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Controler 1.0.pdb
+D:\Workspace\C#\Controller 1.0\Controler 1.0\bin\Debug\Controler 1.0.exe
+D:\Workspace\C#\Controller 1.0\Controler 1.0\bin\Debug\Controler 1.0.pdb
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Controler 1.0.csprojResolveAssemblyReference.cache
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\ExpanderAnimationStyle.baml
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\UserControl\CommandText.g.cs
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Windows\About.g.cs
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\UserControl\CheckLable.g.cs
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\UserControl\ControlPanel.g.cs
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\MainWindow.g.cs
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\App.g.cs
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Controler 1.0_MarkupCompile.cache
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Controler 1.0_MarkupCompile.lref
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\App.baml
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\UserControl\CommandText.baml
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Windows\About.baml
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\UserControl\CheckLable.baml
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\UserControl\ControlPanel.baml
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\MainWindow.baml
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Controler 1.0.g.resources
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Controler_1._0.Properties.Resources.resources
+D:\Workspace\C#\Controller 1.0\Controler 1.0\obj\Debug\Controler 1.0.csproj.GenerateResource.Cache

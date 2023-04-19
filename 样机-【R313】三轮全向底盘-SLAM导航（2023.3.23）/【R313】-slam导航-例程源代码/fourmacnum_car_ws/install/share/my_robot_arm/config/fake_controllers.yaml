@@ -1,0 +1,6 @@
+controller_list:
+  - name: fake_myarms_controller
+    joints:
+      - base_spin_joint
+      - spin_first_swing_joint
+      - first_second_swing_joint

@@ -1,0 +1,1 @@
+pyqt4£ºhttps://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4

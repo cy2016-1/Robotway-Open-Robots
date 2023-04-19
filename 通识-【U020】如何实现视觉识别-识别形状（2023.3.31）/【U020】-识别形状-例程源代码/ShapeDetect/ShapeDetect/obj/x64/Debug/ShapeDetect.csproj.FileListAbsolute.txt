@@ -1,0 +1,93 @@
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe.config
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.pdb
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.g.cs
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\App.g.cs
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.cache
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.lref
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.baml
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.g.resources
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.Properties.Resources.resources
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csproj.GenerateResource.Cache
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.exe
+H:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.pdb
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe.config
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.exe
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.pdb
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.pdb
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.g.cs
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\App.g.cs
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.cache
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.lref
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.baml
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.g.resources
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.Properties.Resources.resources
+G:\test\探索者视觉机器人方案\课程\实验九\3\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csproj.GenerateResource.Cache
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe.config
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.exe
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.pdb
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.pdb
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.g.cs
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\App.g.cs
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.cache
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.lref
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.baml
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.g.resources
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.Properties.Resources.resources
+H:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe.config
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.exe
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.pdb
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.pdb
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\App.g.cs
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.cache
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.lref
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.g.resources
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.Properties.Resources.resources
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csproj.GenerateResource.Cache
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe.config
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.pdb
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.g.cs
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\App.g.cs
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.cache
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.lref
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.baml
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.g.resources
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.Properties.Resources.resources
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csproj.GenerateResource.Cache
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.exe
+E:\Work\Opencv\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.pdb
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe.config
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.exe
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.pdb
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.pdb
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csprojResolveAssemblyReference.cache
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.g.cs
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\App.g.cs
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.cache
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.lref
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.baml
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.g.resources
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.Properties.Resources.resources
+G:\test\探索者视觉机器人方案\课程\实验九\4\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csproj.GenerateResource.Cache
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe.config
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.exe
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.pdb
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.exe
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\bin\x64\Debug\ShapeDetect.pdb
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csprojResolveAssemblyReference.cache
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.g.cs
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\App.g.cs
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.cache
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect_MarkupCompile.lref
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\MainWindow.baml
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.g.resources
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.Properties.Resources.resources
+D:\探索者机器视觉套装 DVD\实验项目\项目9\实验13\例程\ShapeDetect\ShapeDetect\obj\x64\Debug\ShapeDetect.csproj.GenerateResource.Cache

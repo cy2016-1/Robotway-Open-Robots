@@ -1,0 +1,73 @@
+﻿<Window x:Class="Color_Detect.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Color_Detect"
+        mc:Ignorable="d"
+        Title="颜色识别" Height="640" Width="480" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="Width" Value="50"/>
+                <Setter Property="Height" Value="30"/>
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Border Height="240" Width="320" BorderThickness="1" BorderBrush="Black" VerticalAlignment="Top" Margin="0,20,0,0">
+                <Image x:Name="originImage" Height="240" Width="320"></Image>
+            </Border>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Button x:Name="changeBtn" Content="切换" Click="changeBtn_Click"></Button>
+                <Button x:Name="loadBtn" Content="视频" Click="loadBtn_Click" Margin="10,0,100,0"/>
+            </StackPanel>
+            <Label Height="1" Background="Gray" VerticalAlignment="Bottom"></Label>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Canvas Height="240" Width="315">
+                <Canvas.Resources>
+                    <Style TargetType="Path">
+                        <Setter Property="Width" Value="315"/>
+                        <Setter Property="Height" Value="240"/>
+                        <Setter Property="StrokeThickness" Value="20"/>
+                    </Style>
+                </Canvas.Resources>
+                <Path Stroke="Red" StrokeStartLineCap="Round">
+                    <Path.Data>
+                        <PathGeometry Figures="M 0,180 A 150,150 0 0 1 43.93398,43.93398"/>
+                    </Path.Data>
+                </Path>
+                <Path Stroke="Green">
+                    <Path.Data>
+                        <PathGeometry Figures="M 43.93398,43.93398 A 150,150 0 0 1 256.06602,43.93398" />
+                    </Path.Data>
+                </Path>
+                <Path Stroke="Blue" StrokeEndLineCap="Round">
+                    <Path.Data>
+                        <PathGeometry Figures="M 256.06602,43.93398 A 150,150 0 0 1 300,180" />
+                    </Path.Data>
+                </Path>
+                <Path x:Name="indicatorPin" Fill="Orange">
+                    <Path.Data>
+                        <PathGeometry>
+                            <PathGeometry.Figures>
+                                <PathFigure StartPoint="150,180" IsClosed="True">
+                                    <PathFigure.Segments>
+                                        <LineSegment Point="10,185"/>
+                                        <LineSegment Point="150,190"/>
+                                    </PathFigure.Segments>
+                                </PathFigure>
+                            </PathGeometry.Figures>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Label x:Name="colorDisplay" Width="80" FontSize="16" Canvas.Left="110" Canvas.Bottom="70" Content="颜色指示" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            </Canvas>
+        </Grid>
+    </Grid>
+</Window>

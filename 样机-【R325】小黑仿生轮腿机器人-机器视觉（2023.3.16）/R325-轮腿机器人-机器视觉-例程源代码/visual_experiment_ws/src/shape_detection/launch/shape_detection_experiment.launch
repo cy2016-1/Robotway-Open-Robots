@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- xml -->
+<launch>
+	<node pkg="shape_detection" type="shape_detection_victory.py" name="shape_detection_victory" />
+	<!--node name="rvizz" pkg="rviz" type="rviz" /-->
+        <node name="rviz" pkg="rviz" type="rviz" args="-d $(find shape_detection)/rviz/shape_detection.rviz" />
+</launch>

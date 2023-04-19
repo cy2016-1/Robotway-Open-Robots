@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\bin\Debug\Tracking_Car.exe.config
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\Tracking_Car_MarkupCompile.cache
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\Tracking_Car_MarkupCompile.lref
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\bin\Debug\Tracking_Car.exe
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\bin\Debug\Tracking_Car.pdb
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\Tracking_Car.g.resources
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\Tracking_Car.Properties.Resources.resources
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\Tracking_Car.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\Tracking_Car.exe
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\obj\Debug\Tracking_Car.pdb
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\bin\Debug\OpenCvSharp.dll
+C:\Users\Administrator\Desktop\探索者视觉机器人方案\课程\实验五\Tracking_Car\Tracking_Car\bin\Debug\OpenCvSharp.Extensions.dll

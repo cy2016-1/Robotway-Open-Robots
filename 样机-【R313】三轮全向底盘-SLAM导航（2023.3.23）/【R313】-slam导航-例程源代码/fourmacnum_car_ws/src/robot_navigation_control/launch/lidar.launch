@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="delta_2b_lidar"    pkg="delta_2b_lidar"  type="delta_2b_lidar_node" output="log">
+    <param name="serial_port"         type="string" value="/dev/ttyUSB0"/>
+    <param name="frame_id"            type="string" value="laser"/>
+    <!-- boris tianjia-->
+    <param name="cut_angle" type="bool" value="true" />
+    <param name="right_degrees" type="int" value="90"/>
+    <param name="left_degrees" type="int" value="270" />
+  </node>
+  
+  <node pkg="tf" type="static_transform_publisher" name="lidar_broadcaster" args=" 0.07 0 0 1.57 0 0 base_link laser 200" />
+  <!--node pkg="tf" type="static_transform_publisher" name="lidar_broadcaster" args="0 0 0 0.707 0 0 0.707 base_link laser 200" /-->
+  <node pkg="rviz" type="rviz" name="rviz" />
+</launch>

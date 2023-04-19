@@ -1,0 +1,108 @@
+﻿<Window x:Class="ShapeDetect.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShapeDetect"
+        mc:Ignorable="d"
+       Title="形状识别" Height="400" Width="480" ResizeMode="NoResize" Loaded="Window_Loaded" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="GroupBox">
+                <Setter Property="Width" Value="360"/>
+                <Setter Property="BorderBrush" Value="Gray"/>
+                <Setter Property="Margin" Value="0,10,0,0"/>
+            </Style>
+            <Style TargetType="StackPanel">
+                <Setter Property="Orientation" Value="Horizontal"/>
+                <Setter Property="Height" Value="25"/>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="12"/>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="Height" Value="25"/>
+                <Setter Property="Width" Value="50"/>
+            </Style>
+            <Style TargetType="RadioButton">
+                <Setter Property="Margin" Value="0,5,0,0"/>
+            </Style>
+        </Grid.Resources>
+        <StackPanel Height="260" Width="360" Orientation="Vertical" VerticalAlignment="Top" Margin="0,10,0,0">
+            <GroupBox Height="140">
+                <GroupBox.Header>视频</GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0">
+                        <Label>视频地址:</Label>
+                        <TextBox x:Name="videoAddress" Width="280"></TextBox>
+                    </StackPanel>
+                    <DockPanel Height="25" Grid.Row="1">
+                        <Label DockPanel.Dock="Left">控制地址:</Label>
+                        <TextBox x:Name="ipAddress" Width="100"></TextBox>
+                        <Label Margin="10,0,0,0">端口:</Label>
+                        <TextBox x:Name="portBox" Width="80"></TextBox>
+                        <Border></Border>
+                    </DockPanel>
+                    <StackPanel Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                        <Button x:Name="setBtn" Height="25" Width="50" Content="配置" Click="setBtn_Click"></Button>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+            <GroupBox Height="100">
+                <GroupBox.Header>图片</GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0">
+                        <Label>图片地址:</Label>
+                        <TextBox x:Name="imgAddressBox" Width="280"></TextBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" HorizontalAlignment="Right">
+                        <Button x:Name="imgBtn" Content="打开" Click="imgBtn_Click"></Button>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,40">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Width" Value="60"/>
+                    <Setter Property="Margin" Value="0,0,5,0"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                </Style>
+                <Style TargetType="RadioButton">
+                    <Setter Property="Margin" Value="0,5,5,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <RadioButton x:Name="imgCheckBtn" GroupName="group1">图片</RadioButton>
+            <RadioButton x:Name="videoCheckBtn" GroupName="group1">视频</RadioButton>
+            <RadioButton x:Name="circleCheckBtn" GroupName="group2">圆形</RadioButton>
+            <RadioButton x:Name="recCheckBtn" GroupName="group2">矩形</RadioButton>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10">
+            <StackPanel.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="Text" Value="0"/>
+                </Style>
+            </StackPanel.Resources>
+            <Label>圆形</Label>
+            <TextBlock x:Name="circleTextBox"></TextBlock>
+            <Label>矩形</Label>
+            <TextBlock x:Name="recTextBox">0</TextBlock>
+            <Button x:Name="detectBtn" Width="60" Content="形状检测" Click="detectBtn_Click" Margin="10,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

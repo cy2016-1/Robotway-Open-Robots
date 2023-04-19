@@ -1,0 +1,218 @@
+<!-- -->
+<robot
+  name="ats_arm02">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0011197 0.00011414 0.036358"
+        rpy="0 0 0" />
+      <mass
+        value="0.40763" />
+      <inertia
+        ixx="0.00060198"
+        ixy="4.5316E-06"
+        ixz="-3.9335E-06"
+        iyy="0.00063858"
+        iyz="1.7944E-06"
+        izz="0.00068799" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ats_arm02/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ats_arm02/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="spin_Link">
+    <inertial>
+      <origin
+        xyz="0.00033672 -0.012896 0.026428"
+        rpy="0 0 0" />
+      <mass
+        value="0.12276" />
+      <inertia
+        ixx="0.00011585"
+        ixy="3.7936E-07"
+        ixz="-1.4901E-07"
+        iyy="3.9058E-05"
+        iyz="3.0401E-05"
+        izz="7.8372E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ats_arm02/meshes/spin_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ats_arm02/meshes/spin_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_spin_joint"
+    type="revolute">
+    <origin
+      xyz="0 0 0.0781"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="spin_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="first_swing_Link">
+    <inertial>
+      <origin
+        xyz="0.0065409 0.020013 0.051428"
+        rpy="0 0 0" />
+      <mass
+        value="0.065395" />
+      <inertia
+        ixx="0.0001026"
+        ixy="1.4636E-06"
+        ixz="-1.2408E-05"
+        iyy="9.4607E-05"
+        iyz="1.1923E-05"
+        izz="1.1966E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ats_arm02/meshes/first_swing_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ats_arm02/meshes/first_swing_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="spin_first_swing_joint"
+    type="revolute">
+    <origin
+      xyz="0 -0.0141 0.056068"
+      rpy="0 0 0" />
+    <parent
+      link="spin_Link" />
+    <child
+      link="first_swing_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="second_swing_Link">
+    <inertial>
+      <origin
+        xyz="0.052475 0.03012 0.0007592"
+        rpy="0 0 0" />
+      <mass
+        value="0.055077" />
+      <inertia
+        ixx="6.457E-06"
+        ixy="-7.9461E-06"
+        ixz="2.565E-08"
+        iyy="8.2291E-05"
+        iyz="-4.9301E-08"
+        izz="8.7794E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ats_arm02/meshes/second_swing_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ats_arm02/meshes/second_swing_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="first_second_swing_joint"
+    type="revolute">
+    <origin
+      xyz="0.015213 0.0347 0.10894"
+      rpy="0 0 0" />
+    <parent
+      link="first_swing_Link" />
+    <child
+      link="second_swing_Link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

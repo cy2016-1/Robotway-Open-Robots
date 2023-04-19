@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="color_detection" type="color_test_one.py" name="color_test_one" output="screen"/>
+	<!--node name="rviz" pkg="rviz" type="rviz" /-->
+        <node name="rviz" pkg="rviz" type="rviz" args="-d $(find color_detection)/rviz/color_detection.rviz" />
+</launch>

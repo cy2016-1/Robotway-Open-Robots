@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/fourmacnum_car_ws/devel
+
+Name: robot_navigation_control
+Description: Description of robot_navigation_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

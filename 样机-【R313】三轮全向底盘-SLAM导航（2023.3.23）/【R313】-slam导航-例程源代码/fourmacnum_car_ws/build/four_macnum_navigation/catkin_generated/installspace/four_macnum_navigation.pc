@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/fourmacnum_car_ws/install
+
+Name: four_macnum_navigation
+Description: Description of four_macnum_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
