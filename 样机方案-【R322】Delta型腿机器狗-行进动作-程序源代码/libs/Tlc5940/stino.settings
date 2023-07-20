@@ -1,0 +1,12 @@
+{
+    "arduino_folder": "D:\\Program Files\\arduino-1.5.2", 
+    "baudrate": 10, 
+    "full_compilation": false, 
+    "line_ending": 3, 
+    "platform": 1, 
+    "platform_name": "Arduino AVR Boards", 
+    "programmer": {
+        "1": 4
+    }, 
+    "serial_port": 2
+}

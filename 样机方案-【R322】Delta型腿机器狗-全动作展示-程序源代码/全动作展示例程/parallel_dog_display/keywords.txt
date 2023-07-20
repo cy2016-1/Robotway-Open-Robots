@@ -1,0 +1,102 @@
+#######################################
+# Syntax Coloring Map For Parallel Dog
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+uint	KEYWORD1
+Point  	KEYWORD1
+Point3d KEYWORD1
+dogMode KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+IRInit  KEYWORD2
+enableIR KEYWORD2
+disableIR  KEYWORD2
+updateIR KEYWORD2
+switchAdjustStat KEYWORD2
+readGyroSerial  KEYWORD2
+adjustAct KEYWORD2
+setTurnLeftFlag  KEYWORD2
+setTurnRightFlag  KEYWORD2
+leg1  KEYWORD2
+leg2 KEYWORD2
+leg3  KEYWORD2
+leg4 KEYWORD2
+calc  KEYWORD2
+dogReset KEYWORD2
+dogInit KEYWORD2
+upDown  KEYWORD2
+drawCircle KEYWORD2
+stepping  KEYWORD2
+liftShoulder  KEYWORD2
+resetCycleCount  KEYWORD2
+updateCycleCount KEYWORD2
+setMode KEYWORD2
+updateMode  KEYWORD2
+pitchStat KEYWORD2
+rollingStat KEYWORD2
+distance  KEYWORD2
+intersection KEYWORD2
+calcPoint  KEYWORD2
+getPos  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ADJUST_STAT_OFF LITERAL1
+ADJUST_STAT_LEG  LITERAL1
+ADJUST_STAT_TRACK LITERAL1
+LEG1_S1  LITERAL1
+LEG1_S2  LITERAL1
+LEG1_S3  LITERAL1
+LEG1_S4  LITERAL1
+LEG2_S1  LITERAL1
+LEG2_S2  LITERAL1
+LEG2_S3  LITERAL1
+LEG2_S4  LITERAL1
+LEG3_S1  LITERAL1
+LEG3_S2  LITERAL1
+LEG3_S3  LITERAL1
+LEG3_S4  LITERAL1
+LEG4_S1  LITERAL1
+LEG4_S2  LITERAL1
+LEG4_S3  LITERAL1
+LEG4_S4  LITERAL1
+LEFT_IR_PIN  LITERAL1
+RIGHT_IR_PIN LITERAL1
+BACK_IR_PIN LITERAL1
+MOTION_TIMES LITERAL1
+Leg_Init_Z_Pos LITERAL1
+Leg1_S4Pos LITERAL1
+Leg2_S4Pos LITERAL1
+Leg3_S4Pos LITERAL1
+Leg4_S4Pos LITERAL1
+Track_Cycle LITERAL1
+track_x1 LITERAL1
+track_x2 LITERAL1
+track_x3 LITERAL1
+track_x4 LITERAL1
+track_y1 LITERAL1
+track_y2 LITERAL1
+track_z1 LITERAL1
+track_z2 LITERAL1
+track_t1 LITERAL1
+track_t2 LITERAL1
+track_t3 LITERAL1
+track_t4 LITERAL1
+ADJUST_DELTA_TIME LITERAL1
+Leg_Adjust_Delta_Z LITERAL1
+Track_Adjust_Delta_Z LITERAL1
+Balence_Range LITERAL1
+Leg_Adjust_Min_Z LITERAL1
+LEG_Adjust_Max_Z LITERAL1
+Track_Adjust_Min_Z LITERAL1
+Track_Adjust_Max_Z LITERAL1
+
